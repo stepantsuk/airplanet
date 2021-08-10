@@ -1,0 +1,36 @@
+.social__term {
+  font-size: 14px;
+  font-weight: bold;
+}
+.social__item {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+}
+.social__list {
+  display: flex;
+  justify-content: space-between;
+}
+.social__link{
+  display: inline-block;
+  margin: auto;
+  text-decoration:none;
+}
+
+.social__link-frame {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  text-align: center;
+}
+.social__link-frame:hover {
+  background-color: rgba(230, 237, 240, 0.582);
+}
+.social__logo {
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+.social__link-frame img {
+  display: inline-block;
+}

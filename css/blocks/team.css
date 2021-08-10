@@ -1,0 +1,73 @@
+.team__name {
+  color: #262424;
+  font-size: 49px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team__item {
+  flex: 1 0 260px;
+  margin-bottom: 20px;
+}
+.team__member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 15px;
+}
+.team__member-desc {
+  text-align: center;
+}
+.team__member-avatar {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* color: white; */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  /* background-image: url(./../../img/Alex@1X.png); */
+}
+
+
+.team__member-avatar-pilot {
+  background-image: url(./../../img/Alex@1X.png);
+}
+.team__member-avatar-Innahot {
+  background-image: url(./../../img/Inna@1X.png);
+}
+.team__member-avatar-Boris {
+  background-image: url(./../../img/Boris@1X.png);
+}
+.team__member-avatar-Elina {
+  background-image: url(./../../img/Elina@1X.png);
+}
+.team__member-avatar-Elena {
+  background-image: url(./../../img/Elena@1X.png);
+}
+.team__member-avatar-Yri {
+  background-image: url(./../../img/Yrii@1X.png);
+}
+.team__member-name {
+  color:black;
+  font-weight: bold;
+}
+.team__member-post {
+  color: #5973B1;
+  font-weight: bold;
+  font-size: 14px;
+}
+.team__member-text {
+  font-size: 14px;
+  font-weight: lighter;
+}

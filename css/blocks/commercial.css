@@ -1,0 +1,25 @@
+.commercial {
+  margin: 10px 0 50px;
+  background-color: #76B46F;
+  background-image: url(./../../img/pattern@1X.png);
+}
+.commercial__conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commercial__text {
+  padding: 50px 250px;
+  text-align:justify;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.commercial__link {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.commercial__phone {
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+}

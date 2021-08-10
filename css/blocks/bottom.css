@@ -1,0 +1,25 @@
+.bottom {
+  background: #5973B1;
+  color: #fff;
+}
+.bottom--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.bottom__text {
+  width: 236px;
+  height: 50px;
+  font-size: 13px;
+}
+.bottom__text-link {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.autor {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}

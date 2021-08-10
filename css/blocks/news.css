@@ -1,0 +1,51 @@
+.news {
+  /* width: 882px; */
+  margin-bottom: 59px;
+}
+.news__head {
+  font-size: 49px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 71px;
+}
+.news__item {
+  /* margin-top: 30px; */
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .news__img, .news__specification {
+  display: inline-block;
+} */
+.news__specification {
+  width: 660px;
+  font-size: 16px;
+
+}
+.news__img {
+  width: 163px;
+  height: 163px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto auto;
+  margin-right: 20px;
+  /* vertical-align: middle */;
+}
+.news__img--plane {
+  background-image: url(../../img/planeflying1@1X.png);
+}
+.news__img--mountian {
+  background-image: url(../../img/Photo@1X.png);
+}
+.news__img--man {
+  background-image: url(../../img/Layer.png);
+}
+.news__date {
+  font-weight: lighter;
+}
+.rectangle {
+  height: 3px;
+  background-color: #F4F4F4;
+  margin-top: 30px;
+}

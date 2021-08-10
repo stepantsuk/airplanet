@@ -1,0 +1,70 @@
+.side {
+  width: 15%;
+  margin-top: 33px;
+  vertical-align: top;
+  margin-left: 0px;
+}
+.side__item {
+  margin-bottom: 7px;
+
+}
+.side__link {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.side__text {
+  display: inline-block;
+}
+.side__icon, .side__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.side__text {
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #5972B1;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.side__icon {
+  width: 23px;
+  height: 18px;
+  background: left center no-repeat;
+  /* background: white */;
+}
+.side__icon--direction {
+  background-image: url(../../img/main_icon@1X.png);
+}
+.side__icon--star {
+  background-image: url(../../img/feed_icon@1X.png);
+}
+.side__icon--hat {
+  background-image: url(../../img/team_icon@1X.png);
+}
+.side__link:hover .side__icon--direction {
+  background-image: url(../../img/main_icon@1X-hover.png);
+}
+.side__link:hover .side__icon--star {
+  background-image: url(../../img/feed_icon@1X-hover.png);
+}
+.side__link:hover .side__icon--hat {
+  background-image: url(../../img/team_icon@1X-hover.png);
+}
+.side__link:hover .side__text {
+  color: black;
+}
+
+.side__item--active .side__icon--direction{
+  background-image: url(../../img/main_icon@1X-hover.png);
+}
+.side__item--active .side__icon--star{
+  background-image: url(../../img/feed_icon@1X-hover.png);
+}
+.side__item--active .side__icon--hat{
+  background-image: url(../../img/team_icon@1X-hover.png);
+}
+.side__item--active .side__text {
+  color: black;
+}
